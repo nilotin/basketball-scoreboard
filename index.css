@@ -1,0 +1,57 @@
+@font-face {
+    src: url("Timer.ttf");
+    font-family: Timer;
+}
+
+body {
+    background-image: url("images/basketball.jpeg");
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 3px 3px 0px rgb(255, 106, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    margin: 0;
+    font-family: Timer, 'Times New Roman', Times, serif;
+    font-size: 150px;
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 74, 74);
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(255, 106, 0);
+}
+
+.score-btn {
+    font-family: Timer, 'Times New Roman', Times, serif;
+    margin: 30px 10px;
+    color: rgb(30, 30, 30);
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid rgb(255, 106, 0);
+    border-radius: 5px;
+}
+
+#new-game {
+    padding: 10px 20px;
+    font-size: 30px;
+    color: rgb(30, 30, 30);
+    background-color: white;
+    border: 2px solid rgb(255, 106, 0);
+    border-radius: 5px;
+}
